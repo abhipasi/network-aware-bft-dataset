@@ -8,7 +8,7 @@
 | Version | 1.0 |
 | Creator | Abhijeet A. Pasi |
 | Affiliation | K. J. Somaiya School of Engineering, Somaiya Vidyavihar University, Mumbai, India |
-| Corresponding email | sabkesaath.sabkepass@gmail.com |
+| Corresponding email | abhijeet.pasi@somaiya.edu |
 | Collection dates | 8–9 July 2026 |
 | Collection period | 2026-07-08 16:57:59.676 UTC to 2026-07-09 01:42:08.981 UTC |
 | Observation duration | 8 hours, 44 minutes, 9.305 seconds |
@@ -432,7 +432,7 @@ For questions regarding the dataset, methodology, or reproduction scripts, conta
 K. J. Somaiya School of Engineering  
 Somaiya Vidyavihar University  
 Mumbai, India  
-Email: sabkesaath.sabkepass@gmail.com
+Email: abhijeet.pasi@somaiya.edu
 
 ## 21. Version History
 
