@@ -1,0 +1,21 @@
+source_region,destination_region,rtt_milliseconds,pair
+us-west-2,us-east-1,61.039,Oregon → Virginia
+us-east-1,us-west-2,61.053,Virginia → Oregon
+us-east-1,eu-west-1,68.352,Virginia → Ireland
+eu-west-1,us-east-1,68.36,Ireland → Virginia
+ap-northeast-1,us-west-2,98.146,Tokyo → Oregon
+us-west-2,ap-northeast-1,98.162,Oregon → Tokyo
+us-west-2,eu-west-1,116.915,Oregon → Ireland
+eu-west-1,us-west-2,116.923,Ireland → Oregon
+eu-west-1,ap-south-1,119.677,Ireland → Mumbai
+ap-south-1,eu-west-1,119.69,Mumbai → Ireland
+ap-south-1,ap-northeast-1,126.686,Mumbai → Tokyo
+ap-northeast-1,ap-south-1,126.694,Tokyo → Mumbai
+us-east-1,ap-northeast-1,149.086,Virginia → Tokyo
+ap-northeast-1,us-east-1,149.09,Tokyo → Virginia
+us-east-1,ap-south-1,196.478,Virginia → Mumbai
+ap-south-1,us-east-1,196.478,Mumbai → Virginia
+ap-northeast-1,eu-west-1,202.506,Tokyo → Ireland
+eu-west-1,ap-northeast-1,202.523,Ireland → Tokyo
+ap-south-1,us-west-2,230.343,Mumbai → Oregon
+us-west-2,ap-south-1,230.344,Oregon → Mumbai
