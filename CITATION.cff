@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "AWS Inter-Region RTT Measurements for Network-Aware BFT Consensus Evaluation"
+type: dataset
+authors:
+  - family-names: "Pasi"
+    given-names: "Abhijeet A."
+  - family-names: "Dalvi"
+    given-names: "Ashwini A."
+  - family-names: "Siddavatam"
+    given-names: "Irfan N. A."
+  
+
+version: "1.0.0"
+date-released: "2026-07-11"
+license: "MIT"
+repository-code: "https://github.com/abhipasi/network-aware-bft-dataset"
+keywords:
+  - "AWS"
+  - "round-trip time"
+  - "RTT"
+  - "network latency"
+  - "Byzantine fault tolerance"
+  - "BFT consensus"
+  - "geo-distributed systems"
+  - "blockchain"
+  - "distributed systems"
+  - "cloud computing"
+abstract: >-
+  This dataset contains 3,090,940 anonymized round-trip-time measurements
+  collected from ten Amazon Web Services nodes distributed across five AWS
+  regions: us-east-1, us-west-2, eu-west-1, ap-northeast-1, and ap-south-1.
+  The dataset supports reproducible evaluation of network-aware committee
+  placement, adaptive timeout mechanisms, and geo-distributed Byzantine
+  fault-tolerant consensus protocols.
+preferred-citation:
+  type: dataset
+  title: "AWS Inter-Region RTT Measurements for Network-Aware BFT Consensus Evaluation"
+  authors:
+    - family-names: "Pasi"
+      given-names: "Abhijeet A."
+    - family-names: "Dalvi"
+      given-names: "Ashwini"
+    - family-names: "Siddavatam"
+      given-names: "Irfan N. A."
+  year: 2026
+  version: "1.0.0"
+  publisher:
+    name: "IEEE DataPort"
+  repository-code: "https://github.com/abhipasi/network-aware-bft-dataset"
