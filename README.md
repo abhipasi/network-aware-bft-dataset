@@ -136,14 +136,11 @@ The primary dataset contains eight columns.
 
 The conversion is:
 
-The RTT values in milliseconds were derived from the original microsecond measurements as follows:
-
-[
+```math
 \mathrm{RTT}_{\mathrm{ms}}
-==========================
-
-\frac{\mathrm{RTT}_{\mu\mathrm{s}}}{1000}.
-]
+=
+\frac{\mathrm{RTT}_{\mu\mathrm{s}}}{1000}
+```
 
 The `rtt_microseconds` field contains the original measured values, whereas `rtt_milliseconds` is a derived field provided for convenient analysis and visualization.
 
