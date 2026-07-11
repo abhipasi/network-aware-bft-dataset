@@ -7,7 +7,7 @@
 | Dataset title | AWS Inter-Region RTT Measurements for Network-Aware BFT Consensus Evaluation |
 | Version | 1.0 |
 | Creator | Abhijeet A. Pasi |
-| Affiliation | K. J. Somaiya School of Engineering, Somaiya Vidyavihar University, Mumbai, India |
+| Affiliation | K. J. Somaiya School of Engineering (Formerly K J Somaiya College of Engineering), Somaiya Vidyavihar University, Mumbai, India |
 | Corresponding email | abhijeet.pasi@somaiya.edu |
 | Collection dates | 8–9 July 2026 |
 | Collection period | 2026-07-08 16:57:59.676 UTC to 2026-07-09 01:42:08.981 UTC |
@@ -136,13 +136,17 @@ The primary dataset contains eight columns.
 
 The conversion is:
 
-\[
-\text{rtt\_milliseconds}
-=
-\frac{\text{rtt\_microseconds}}{1000}
-\]
+The RTT values in milliseconds were derived from the original microsecond measurements as follows:
 
-`rtt_microseconds` should be treated as the original measurement. `rtt_milliseconds` is included for convenient analysis and visualization.
+[
+\mathrm{RTT}_{\mathrm{ms}}
+==========================
+
+\frac{\mathrm{RTT}_{\mu\mathrm{s}}}{1000}.
+]
+
+The `rtt_microseconds` field contains the original measured values, whereas `rtt_milliseconds` is a derived field provided for convenient analysis and visualization.
+
 
 ## 7. Anonymization
 
